@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- inter, montserrat, hanuman, bebas neue -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="bg-[url('/images/hero.png')] bg-cover h-280 flex flex-col">
+      <header class="flex justify-between items-center pt-7 px-30">
+        <img src="./icons/logo.png" alt="pinetour-logo" class="w-25" />
+        <nav class="flex gap-4">
+          <p
+            class="font-[Inter] text-white w-25 text-lg text-center font-semibold"
+          >
+            Home
+          </p>
+          <p
+            class="font-[Inter] text-white w-25 text-lg text-center font-semibold"
+          >
+            About
+          </p>
+          <p
+            class="font-[Inter] text-white w-25 text-lg text-center font-semibold"
+          >
+            Contact
+          </p>
+          <i data-lucide="user" color="white" stroke-width="3"></i>
+        </nav>
+        <div
+          class="font-[Inter] uppercase flex justify-center items-center bg-white h-10 w-10 rounded-full text-sm"
+        >
+          en
+        </div>
+      </header>
+      <div class="flex flex-col items-center pt-25">
+        <p
+          class="font-[Bebas_Neue] uppercase text-[80px] leading-none text-[rgba(232,237,242,0.72)] text-center"
+        >
+          pure magic
+        </p>
+        <p
+          class="font-[Bebas_Neue] uppercase text-[250px] leading-none text-[rgba(253,253,254,0.98)]"
+        >
+          awaits!
+        </p>
+        <p
+          class="font-[Hanuman] text-center font-black text-[rgba(255,255,255,0.8)] text-[64px]"
+        >
+          2024
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-[url('/images/location.png')] bg-cover h-100 flex justify-center items-center"
+    >
+      <div class="flex gap-10">
+        <div
+          class="w-[280px] h-[370px] rounded-3xl bg-[url('/images/terhiin-tsagaan.png')] bg-cover flex justify-center items-center"
+        >
+          <p
+            class="font-[Bebas_Neue] uppercase text-[rgba(253,253,254,0.8)] text-[37px] px-5 text-center text-shadow-lg/30"
+          >
+            terkhiin tsagaan lake
+          </p>
+        </div>
+        <div
+          class="w-[280px] h-[370px] rounded-3xl bg-[url('/images/amarbaysgalant.png')] bg-cover flex justify-center items-center"
+        >
+          <p
+            class="font-[Bebas_Neue] uppercase text-[rgba(253,253,254,0.8)] text-[37px] px-5 text-center text-shadow-lg/30"
+          >
+            amarbaysgalant monastery
+          </p>
+        </div>
+        <div
+          class="w-[280px] h-[370px] rounded-3xl bg-[url('/images/khuvsgul.png')] bg-cover flex justify-center items-center"
+        >
+          <p
+            class="font-[Bebas_Neue] uppercase text-[rgba(253,253,254,0.8)] text-[37px] px-5 text-center text-shadow-lg/30"
+          >
+            khuvsgul lake
+          </p>
+        </div>
+        <div
+          class="w-[280px] h-[370px] rounded-3xl bg-[url('/images/khorgiin-togoo.png')] bg-cover flex justify-center items-center"
+        >
+          <p
+            class="font-[Bebas_Neue] uppercase text-[rgba(253,253,254,0.8)] text-[37px] px-5 text-center text-shadow-lg/30"
+          >
+            khorgiin togoo
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
